@@ -20,7 +20,7 @@ export default {
       sm: "768px",
       md: "1025px",
       lg: "1200px",
-      xl: "2560px",
+      xl: "1700px",
     },
   },
   plugins: [],
