@@ -4,7 +4,7 @@ import Button from "./Button";
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div
-    className={`flex flex-row p-6 rounded-[20px] ${
+    className={`flex flex-row py-6 md:p-6 rounded-[20px] ${
       index !== features.length - 1 ? "mb-6" : "mb-0"
     } feature-card`}
   >
@@ -32,7 +32,7 @@ const Business = () => (
         You do business, <br className="sm:block hidden" /> we'll handle the
         money.
       </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+      <p className={`${styles.paragraph} mt-5`}>
         With the right credit card, you can improve your financial life by
         building credit, earning rewards and saving money. But with hudreds of
         credit cards on the market.

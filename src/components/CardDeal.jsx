@@ -6,10 +6,10 @@ const CardDeal = () => (
   <section className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Find a better card deal <br className="sm:block hidden" /> in few easy
+        Find a better card deal in few easy
         steps.
       </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+      <p className={`${styles.paragraph} mt-5`}>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis vel
         nam obcaecati autem eos sed quidem, rem velit explicabo? Enim. Lorem
         ipsum dolor sit amet consectetur adipisicing elit. Distinctio, ipsum?
@@ -18,7 +18,7 @@ const CardDeal = () => (
     </div>
 
     <div className={layout.sectionImg}>
-      <img src={card} alt="card" className='w-[100%] h-[100%]' />
+      <img src={card} alt="card" className='w-[100% lg:ml-10' />
     </div>
   </section>
 );
